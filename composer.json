@@ -1,0 +1,17 @@
+{
+    "name": "crowphp/crow-sample-project",
+    "require": {
+        "crowphp/crow": "^0.4.2"
+    },
+    "authors": [
+        {
+            "name": "Yousaf Syed",
+            "email": "mmesunny@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
