@@ -159,7 +159,7 @@ I have used apache benchmark `Version 2.3 <$Revision: 1843412 $>` to run 20k req
     99%     16
     100%     45 (longest request)
    ```
-   In this second result we can see that even with decent amount of data transfer the performance drop is not that much the mean stays at `1 ms` and the median at `7 ms` and if we look at our database the connections to the database stays steadily at 12 connections where if we were not using connection pooling we would have a lot more connections to database.
+   In this second result we can see that even with decent amount of data transfer the performance drop is not that much and if we look at our database the connections to the database stays steadily at 12 connections where if we were not using connection pooling we would have a lot more connections to database.
 
 Note: System Specs
 * CPU: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz   2.30 GHz
